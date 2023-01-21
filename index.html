@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-image">
+                    <img src="./images/kindpng_2982104-removebg-preview.png" alt=".logo">
+                    <h2 class="logo_heading">SA<span>EED</span></h2>
+                </div>
+                <div onclick="toggleNav()" id="t_button" class="nav-toggler active">
+                    <p class="first"></p>
+                    <p class="second"></p>
+                    <p class="third"></p>
+
+                </div>
+                <div id="nav-items" class="nav-items active">
+                    <ul>
+                        <li><a href="#about">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                    <button class="btn">Download CV</button>
+                </div>
+                
+            </div>
+            
+        </nav>
+        <section class="home" id="home">
+            <div class="home-container">
+                <div class="home-left">
+                    <h3 class= "pre-heading">Hello, I'm</h3>
+                    <h1 class="primary_heading">Saeed Ali</h1>
+                    <h2 class="secondary_heading">A creative web Designer From <span>Karachi</span></h2>
+                    <p  class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, debitis?</p>
+                   <div class="home-button">
+                        <button class="btn">About Me</button>
+                        <div class="social-links">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <ion-icon name="logo-linkedin"></ion-icon> 
+                        </div>
+                    </div>
+                </div>
+                <div class="home-right">
+                    <div class="home-image">
+                        <img src="./images/profile.png" alt="">
+                        <div class="class_tag" id="skill1">
+                            <img src="./images/adobe-photoshop.png" alt="">
+                        </div>
+                        <div class="class_tag" id="skill2">
+                            <img src="./images/adobe-illustrator.png" alt="">
+                        </div>
+                        <div class="class_tag"  id="skill3">
+                            <img src="./images/web-design.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="skills">
+        <div class="skill-container">
+            <div class="skill-box">
+                <img src="./images/ux.png" alt=".flaticon">
+                <h2 class="secondary_heading">Pixel Perfect</h2>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla mollitia aperiam soluta minima</p>  
+            </div>
+            <div class="skill-box">
+                <img src="./images/program.png" alt=".flaticon">
+                <h2 class="secondary_heading">Pixel Perfect</h2>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla mollitia aperiam soluta minima</p>  
+            </div>
+            <div class="skill-box">
+                <img src="./images/web-development.png" alt=".flaticon">
+                <h2 class="secondary_heading">Pixel Perfect</h2>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla mollitia aperiam soluta minima</p>  
+            </div>
+
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-left">
+                <div class="about-image">
+                    <img src="./images/profile.png" alt="">
+                    <div class="about_details" id="about_exp">
+                        <h2 class="count" id="Count1" data-goal="12">0</h2>
+                        <p >Years of success</p>
+                    </div>
+                    <div class="about_details"  id="about_projects">
+                        <h2 class="count" id="Count2" data-goal= '38'>0</h2>
+                        <p>Total projects</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-right">
+                <h3 class= "pre-heading">I'm designer</h3>
+                <h1 class="primary_heading">I can design any thing you want</h1>
+                <p  class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, debitis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi inventore qui minima nostrum quae quas assumenda dolor velit voluptate quia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, nulla.</p>
+               <div class="about-button">
+                    <button class="btn">Hire me</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section  class="portfolio"  id="portfolio">
+        <div class="portfolio-container">
+            <div class="portfolioDetail">
+                <h1 class="pre-heading">Portfolio</h1>
+                <h3 class="primary_heading">My Amazing Works</h3>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quidem deserunt cupiditate ipsam reiciendis voluptas pariatur natus harum voluptatibus repellat.</p>
+            </div>
+            <div class="container">
+                <div class="catagories">
+                    <ul>
+                        <li class="active" >All</li>
+                        <li>Design</li>
+                        <li>Development</li>
+                        <li>Ecommerce</li>
+                    </ul>
+                </div>
+                <ul class="image-gallery">
+                    <li>
+                        <img src="https://source.unsplash.com/FV3GConVSss" alt="" />
+                        <div class="overlay"><span>Image title</span></div>
+                    </li>
+                    <li>
+                      <img src="https://source.unsplash.com/O0N9MF--hK4" alt="" />
+                      <div class="overlay"><span>Image title</span></div>
+                    </li>
+                  <li>
+                    <img src="https://source.unsplash.com/0ESjL-Nw22Y" alt="" />
+                    <div class="overlay"><span>Image title</span></div>
+                  </li>
+                  <li>
+                    <img src="https://source.unsplash.com/KTVn62x6fFw" alt="" />
+                    <div class="overlay"><span>Image title</span></div>
+                  </li>
+          
+                  <li>
+                    <img src="https://source.unsplash.com/VSeVhmW4_JQ" alt="" />
+                    <div class="overlay"><span>Image title</span></div>
+                  </li>
+                  <li>
+                    <img src="https://source.unsplash.com/07aFaTf24Kg" alt="" />
+                    <div class="overlay"><span>Image title</span></div>
+                  </li>
+                </ul>
+              </div>
+        </div>
+    </section>
+    <Section class="skills" id="skills">
+        <div class="Skills_container">
+            <div class="Skills_left">
+                <h3 class= "pre-heading">Desgin is Life</h3>
+                <h1 class="secondary_heading">I Develope Skills Regularily to Keep Me Updated </h1>
+                <p  class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. In laudantium sapiente, nihil nesciunt voluptas voluptatibus.</p>
+               <div class="box">
+                    <div class="progressive_bar">
+                        <p>80%</p>
+                        <h2 class="Secondary_heading">Photoshop</h2>
+                        <div class="pb_container">
+                            <div class="skill"></div>
+                        </div>
+                    </div> 
+                </div>
+               <div class="box">
+                    <div class="progressive_bar">
+                        <p>60%</p>                        
+                        <h2 class="Secondary_heading">Illustrator</h2>
+                        <div class="pb_container">
+                            <div class="skill " style="background-color: #ff8a73; width: 60%;"></div>
+                        </div>
+                    </div> 
+                </div>
+               <div class="box">
+                    <div class="progressive_bar">
+                        <p>70%</p>
+                        <h2 class="Secondary_heading">Figma</h2>
+                        <div class="pb_container">
+                            <div class="skill"  style="background-color: #b0b0ff; width: 70%;"></div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="skill_right">
+                  <div class="skills-image">
+                    <img src="./images/profile.png" alt="">
+                </div>
+            </div>
+        </div> 
+    </Section>
+    <section class="services" id="services">
+        <div class="services_container">
+            <div class="services_header">
+                <h1 class="pre-heading">Services</h1>
+                <h1 class="primary_heading">What I Do for Client</h1>
+                <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam sint facilis porro quidem dolore voluptatibus omnis! Laborum impedit temporibus consequatur.</p>
+            </div>
+            <div class="services_cards">
+                <div class="card">
+                    <img src="./images/ux.png" alt=".logo">
+                    <div class="card_details">
+                        <h1 class="secondary_heading">Creative Design</h1>
+                        <h2>Starts from <span>$99</span></h2>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga eius obcaecati quidem blanditiis harum odio perferendis assumenda explicabo! Modi alias provident, asperiores nisi aliquam distinctio.</p>
+                        <button class="btn">Contact now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ux.png" alt=".logo">
+                    <div class="card_details">
+                        <h1 class="secondary_heading">Creative Design</h1>
+                        <h2>Starts from <span>$99</span></h2>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga eius obcaecati quidem blanditiis harum odio perferendis assumenda explicabo! Modi alias provident, asperiores nisi aliquam distinctio.</p>
+                        <button class="btn">Contact now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ux.png" alt=".logo">
+                    <div class="card_details">
+                        <h1 class="secondary_heading">Creative Design</h1>
+                        <h2>Starts from <span>$99</span></h2>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga eius obcaecati quidem blanditiis harum odio perferendis assumenda explicabo! Modi alias provident, asperiores nisi aliquam distinctio.</p>
+                        <button class="btn">Contact now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ux.png" alt=".logo">
+                    <div class="card_details">
+                        <h1 class="secondary_heading">Creative Design</h1>
+                        <h2>Starts from <span>$99</span></h2>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga eius obcaecati quidem blanditiis harum odio perferendis assumenda explicabo! Modi alias provident, asperiores nisi aliquam distinctio.</p>
+                        <button class="btn">Contact now</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="testimonials" id="testimonails">
+        <div class="testimonials_container">
+            <div class="testimonials_header">
+                <h1 class="pre-heading">Testimonils</h1>
+                <h1 class="primary_heading">What My Clients Say</h1>
+                <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam sint facilis porro quidem dolore voluptatibus omnis! Laborum impedit temporibus consequatur.</p>
+            </div>
+            <div class="testimonials_cards">
+                <div class="card">
+                    <img src="./images/ux.png" alt=".logo">
+                    <p class="para" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, aspernatur. lorem10Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam saepe dignissimos autem ex in veniam? Fuga assumenda id soluta facilis odio dolor fugiat. Minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos.</p>
+                    <div class="testimonials_profile">
+                        <img src="./images/profile.png" alt="">
+                        <div class="profile_details">
+                            <h1 class="secondary_heading">Vic Devore</h1>
+                            <p class="para">Founder of DD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/ux.png" alt=".logo">
+                    <p class="para" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, aspernatur. lorem10Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam saepe dignissimos autem ex in veniam? Fuga assumenda id soluta facilis odio dolor fugiat. Minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eos.</p>
+                    <div class="testimonials_profile">
+                        <img src="./images/profile.png" alt="">
+                        <div class="profile_details">
+                            <h1 class="secondary_heading">Vic Devore</h1>
+                            <p class="para">Founder of DD</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="contactus" id="contactus_us">
+        <div class="contactus_container">
+            <div class="contactus_header">
+                <h1 class="pre-heading">Contact Me</h1>
+                <h1 class="primary_heading">I want to hear from you</h1>
+                <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam sint facilis porro quidem dolore voluptatibus omnis! Laborum impedit temporibus consequatur.</p>
+            </div>
+            <div class="contactus_box">
+                <div class="left">
+                    <div class="box">
+                        <div class="svg" style="background-color: rgb(169, 169, 255);">
+                            <i style="color: #514e83;"; class="fa fa-house-user"></i>
+                        </div>
+                        <div class="info">
+                            <h class="secondary_heading">Address</h>
+                            <p class="para">Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="svg" style="background-color: rgb(254, 161, 161);">
+                            <i style="color:  #d95252;" class="fa fa-envelope"></i>
+                        </div>
+                        <div class="info">
+                            <h class="secondary_heading">Email</h>
+                            <p class="para">nassand@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="svg">
+                            <i style="color: green;" class="fa fa-phone"></i>
+                        </div>
+                        <div class="info">
+                            <h class="secondary_heading">Phone</h>
+                            <p class="para">03039123829382</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="grid_box">
+                        <input type="text" name="name" id="fname" placeholder="Your Name">
+                        <input type="emal" name="email" id="email" placeholder="Your Email">
+                        <input type="number" name="phone" id="phone" placeholder="Phone Number">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <textarea name="desc" id="textarea" cols="35" rows="12"></textarea>
+                        <button class="btn">Submit now</button>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_container">
+            <h2 class="secondary_heading">@ 2022 Developed By Saeed Soomro</h2>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>
